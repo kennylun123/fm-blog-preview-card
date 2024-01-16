@@ -108,11 +108,16 @@ select {
   font-size: 0.75rem;
   font-weight: 800;
 }
+@media (min-width: 25rem) {
+  .blog-card .blog-card__content .blog-card__content-tag {
+    font-size: 0.875rem;
+  }
+}
 .blog-card .blog-card__content .blog-card__content-date {
   margin-top: 1rem;
   font-size: 0.75rem;
 }
-@media (max-width: 25rem) {
+@media (min-width: 25rem) {
   .blog-card .blog-card__content .blog-card__content-date {
     font-size: 0.875rem;
   }
@@ -129,18 +134,19 @@ select {
 .blog-card .blog-card__content h2 a:hover {
   color: hsl(47, 88%, 63%);
 }
-@media (max-width: 25rem) {
+@media (min-width: 25rem) {
   .blog-card .blog-card__content h2 {
-    font-size: 1.35rem;
+    font-size: 1.5rem;
   }
 }
 .blog-card .blog-card__content .blog-card__content-description {
   margin-top: 0.5rem;
   color: hsl(0, 0%, 50%);
+  font-size: 0.875rem;
 }
-@media (max-width: 25rem) {
+@media (min-width: 25rem) {
   .blog-card .blog-card__content .blog-card__content-description {
-    font-size: 0.875rem;
+    font-size: 1rem;
   }
 }
 .blog-card .blog-card__content .blog-card__author {

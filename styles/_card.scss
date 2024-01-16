@@ -29,12 +29,15 @@
       padding: 0.5em 1em;
       font-size: vars.$fs-200;
       font-weight: vars.$fw-800;
+      @media (min-width: 25rem) {
+        font-size: vars.$fs-300;
+      }
     }
 
     .blog-card__content-date {
       margin-top: 1rem;
       font-size: vars.$fs-200;
-      @media (max-width: 25rem) {
+      @media (min-width: 25rem) {
         font-size: vars.$fs-300;
       }
     }
@@ -50,7 +53,7 @@
           color: hsl(vars.$clr-yellow-400);
         }
       }
-      @media (max-width: 25rem) {
+      @media (min-width: 25rem) {
         font-size: vars.$fs-600;
       }
     }
@@ -58,9 +61,9 @@
     .blog-card__content-description {
       margin-top: 0.5rem;
       color: hsl(vars.$clr-neutral-200);
-
-      @media (max-width: 25rem) {
-        font-size: vars.$fs-300;
+      font-size: vars.$fs-300;
+      @media (min-width: 25rem) {
+        font-size: vars.$fs-400;
       }
     }
 

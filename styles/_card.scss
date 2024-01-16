@@ -34,13 +34,15 @@
     .blog-card__content-date {
       margin-top: 1rem;
       font-size: vars.$fs-200;
+      @media (max-width: 25rem) {
+        font-size: vars.$fs-300;
+      }
     }
 
     h2 {
       margin-top: 0.5rem;
       font-size: vars.$fs-500;
       font-weight: vars.$fw-800;
-
       a {
         color: hsl(vars.$clr-neutral-900);
         text-decoration: none;
@@ -48,13 +50,16 @@
           color: hsl(vars.$clr-yellow-400);
         }
       }
+      @media (max-width: 25rem) {
+        font-size: vars.$fs-600;
+      }
     }
 
     .blog-card__content-description {
       margin-top: 0.5rem;
       color: hsl(vars.$clr-neutral-200);
 
-      @media (max-width: 23.5rem) {
+      @media (max-width: 25rem) {
         font-size: vars.$fs-300;
       }
     }

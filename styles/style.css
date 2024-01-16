@@ -112,6 +112,11 @@ select {
   margin-top: 1rem;
   font-size: 0.75rem;
 }
+@media (max-width: 25rem) {
+  .blog-card .blog-card__content .blog-card__content-date {
+    font-size: 0.875rem;
+  }
+}
 .blog-card .blog-card__content h2 {
   margin-top: 0.5rem;
   font-size: 1.25rem;
@@ -124,11 +129,16 @@ select {
 .blog-card .blog-card__content h2 a:hover {
   color: hsl(47, 88%, 63%);
 }
+@media (max-width: 25rem) {
+  .blog-card .blog-card__content h2 {
+    font-size: 1.35rem;
+  }
+}
 .blog-card .blog-card__content .blog-card__content-description {
   margin-top: 0.5rem;
   color: hsl(0, 0%, 50%);
 }
-@media (max-width: 23.5rem) {
+@media (max-width: 25rem) {
   .blog-card .blog-card__content .blog-card__content-description {
     font-size: 0.875rem;
   }
